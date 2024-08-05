@@ -1,4 +1,3 @@
-
 import redis from 'redis';
 import { promisify } from 'util';
 
@@ -61,4 +60,3 @@ class RedisClient {
 const redisClient = new RedisClient();
 
 export default redisClient;
-
